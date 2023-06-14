@@ -7,14 +7,14 @@
 
 [[redirects]]
   from = "/subdirectory/*"
-  to = "https://unsteady-bruising-carrot.qa.pgsdemo.com/:splat"
+  to = "https://plaything-cornbread-exhale.pgsdemo.com/:splat"
   status = 200
   force = true
-  headers = {Host = "https://unsteady-bruising-carrot.qa.pgsdemo.com"}
+  headers = {Host = "https://plaything-cornbread-exhale.pgsdemo.com"}
 
 [[redirects]]
   from = "/subdirectory"
-  to = "https://unsteady-bruising-carrot.qa.pgsdemo.com/index.html"
+  to = "https://plaything-cornbread-exhale.pgsdemo.com/index.html"
   status = 200
   force = true
-  headers = {Host = "https://unsteady-bruising-carrot.qa.pgsdemo.com/"}
+  headers = {Host = "https://plaything-cornbread-exhale.pgsdemo.com/"}
