@@ -6,14 +6,14 @@
   package = "netlify-plugin-cypress"
 
 [[redirects]]
-  from = "/subdirectory/*"
+  from = "/search/*"
   to = "https://plaything-cornbread-exhale.pgsdemo.com/:splat"
   status = 200
   force = true
   headers = {Host = "https://plaything-cornbread-exhale.pgsdemo.com"}
 
 [[redirects]]
-  from = "/subdirectory"
+  from = "/search"
   to = "https://plaything-cornbread-exhale.pgsdemo.com/index.html"
   status = 200
   force = true
