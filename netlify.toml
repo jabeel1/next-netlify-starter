@@ -4,3 +4,17 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[[redirects]]
+  from = "/subdirectory/*"
+  to = "https://unsteady-bruising-carrot.qa.pgsdemo.com/:splat"
+  status = 200
+  force = true
+  headers = {Host = "https://unsteady-bruising-carrot.qa.pgsdemo.com"}
+
+[[redirects]]
+  from = "/subdirectory"
+  to = "https://unsteady-bruising-carrot.qa.pgsdemo.com/index.html"
+  status = 200
+  force = true
+  headers = {Host = "https://unsteady-bruising-carrot.qa.pgsdemo.com/"}
